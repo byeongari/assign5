@@ -1,0 +1,150 @@
+<doc!<!DOCTYPE html>
+    <html>
+      <head>
+      <style media="screen">
+      table { font-size:1.5rem;
+         text-align: center;
+         border:8px solid white;
+         padding:4px;
+         margin:0;
+         display:block;}
+        body {
+      background:brown;
+      padding: 2rem;
+
+    }
+
+    h2 {
+      font-family: 'Arial';
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 3rem;
+      line-height: 0.75;
+    }
+
+    span {
+      display: block;
+    }
+
+    span:not(.light) {
+      opacity: 0;
+      animation: flashText .5s ease-out alternate infinite;
+    }
+
+    span.light {
+      position: relative;
+      display: inline-block;
+
+      &:before {
+        position: absolute;
+        left: 0;
+        top: -10%;
+        width: 100%;
+        height: 120%;
+        background: #fff;
+        filter: blur(10px);
+        content: "";
+        opacity: 0;
+        animation: flash .5s ease-out alternate infinite;
+      }
+    }
+
+    @keyframes flash{
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes flashText {
+      to {
+        opacity: 0.15;
+      }
+    }
+    storong {color:white;
+    }
+    h2  {background-image:url('https://t1.daumcdn.net/cfile/tistory/266FA5505646BA6432')}
+    a{color:white;}
+
+
+
+
+    tr {text-align:center;}
+    td {text-align:center;
+    width:400px;}
+    table {border-spacing:200px; border-collapse: separate;}
+
+
+
+      </style>
+
+
+
+      </head>
+
+
+      <body>
+        <h2>
+          <span>THE</span>
+          <span class="light">GREAT AUTHORS</span>
+          <span></span>
+          <span>INTERESTED</span>
+          <span>BEHIND STORY</span>
+        </h2>
+        <table border="1">
+     <thead>
+       <th><font color=white><strong>AUTHORS</strong></font></style></th><th><font color=white><strong>THEIR INFORMATION</strong></font></th>
+
+             </tr>
+           </thead>
+           <tbody>
+             <tr>
+               <td>  <a href="1.html">edgar allan poe</a></td>
+               <td><a href="https://en.wikipedia.org/wiki/Edgar_Allan_Poe">about he</a></td>
+             </tr>
+             <tr> <td>  <a href="1.html">stephen king</a></td>
+               <td><a href="https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%8B%B0%EB%B8%90_%ED%82%B9">about he</a></td>
+             </tr>
+             <tr>
+               <td><a href="1.html">William Shakespeare</a></td>
+               <td><a href="https://ko.wikipedia.org/wiki/%EC%9C%8C%EB%A6%AC%EC%97%84 _%EC%85%B0%EC%9D%B5%EC%8A%A4%ED%94%BC%EC%96%B4">about he</a></td>
+             </tr>
+             <tr>
+               <td><a href="1.html">Mary Wollstonecraft Shelley</a></td><td><a href="https://ko.wikipedia.org/wiki/%EB%A9%94%EB%A6%AC_%EC%85%B8%EB%A6%AC"
+                 >about she</a></td>
+             </tr>
+             <tr>
+               <td><a href="1.html">Mark Twain</a></td><td><a href="https://ko.wikipedia.org/wiki/%EB%A7%88%ED%81%AC_%ED%8A%B8%EC%9B%A8%EC%9D%B8">about he</a></td>
+             </tr>
+
+     </tbody>
+   </table>
+   <div class="like-content">
+  <button class="btn-secondary like-review">
+    <i class="fa fa-heart" aria-hidden="true"></i> Like
+  </button>
+
+</div>
+
+<p><div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://assign-1.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</p></body>
+</html>
